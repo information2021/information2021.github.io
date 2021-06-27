@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Great links.</title>
+    <link rel="shortcut icon" href="https://www.krebner.com/networkplus.ico" />
+    <link rel="stylesheet" href="https://informationtechnology2020.github.io/bootstrap4.css">
+    <script>
+  
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://source.unsplash.com/2400x1350/?nature,caves");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://source.unsplash.com/2400x1350/?nature,jungle");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://source.unsplash.com/2400x1350/?nature,ocean");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+<style>
+  body {font-size: 200%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Interesting Links</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Good stuff</h3>
+  	<div   style="text-align:center"> <h1> Check these links out </h1> </div>
+<br>
+    <a href="https://www.networkworld.com/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Network World</strong>
+</a>
+
+<a href="https://www.networkcomputing.com/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Network Computing</strong>
+</a>
+
+<a href="https://whoer.net/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Whoer (?)</strong>
+</a>
+
+<a href="https://ipleak.net/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>IP Leak (!)</strong>
+</a>
+
+
+<a href="https://www.eetimes.com/welcome-to-the-third-era-of-32-64-bit-embedded-cpus/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Welcome to the Third Era of 32/64-bit Embedded CPUs</strong>
+</a>
+
+
+
+
+<a href="https://csrc.nist.gov/glossary/term/Transmission_Control_Protocol" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>NIST TCP</strong>
+</a>
+
+<a href="https://www.pcwdld.com/what-is-icmp-and-port" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>ICMP</strong>
+</a>
+
+<a href="https://isc.sans.edu/diary/Cyber+Security+Awareness+Month+-+Day+20+-+Ports+5060+%26+5061+-+SIP+%28VoIP%29/7405" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>SIP 5060 and 5061</strong>
+</a>
+
+<a href="https://techdifferences.com/difference-between-h-323-and-sip.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>H-323 vs SIP</strong>
+</a>
+
+<a href="https://techdifferences.com/difference-between-sip-and-voip.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>SIP and VoIP</strong>
+</a>
+
+<a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9400/software/release/16-10/configuration_guide/int_hw/b_1610_int_and_hw_9400_cg/configuring_system_mtu.pdf" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Cisco MTU</strong>
+</a>
+
+<a href="https://www.cisco.com/c/dam/en_us/about/ciscoitatwork/downloads/ciscoitatwork/pdf/Cisco_IT_Case_Study_QoS_print.pdf" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Cisco Qos</strong>
+</a>
+
+
+    <a href="https://www.cisco.com/c/en/us/td/docs/ios/qos/command/reference/qos_book.pdf" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+Cisco QoS
+</a>
+
+
+<a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/qos_classn/configuration/xe-3s/qos-classn-xe-3s-book.pdf" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Cisco IPv6 QoS</strong>
+</a>
+
+<a href="https://www.cisco.com/en/US/technologies/tk543/tk766/technologies_white_paper09186a00800a3e2f.pdf" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Cisco DiffServ</strong>
+</a>
+ 
+    <a href="https://www.networkworld.com/article/2328615/the-power-over-ethernet.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>PoE</strong>
+</a>
+    
+    
+
+<a href="https://www.computerworld.com/article/2593382/networking-packet-switched-vs-circuit-switched-networks.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Packet Switched vs Circuit Switched Networks</strong>
+</a>
+    
+<a href="https://www.opennetworking.org/sdn-definition/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>SDN?</strong>
+</a>
+
+<a href="https://opennetworking.org/news-and-events/blog/openflow-catalyst-that-kickstarted-the-sdn-transformation/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>OpenFlow - Software Defined Networking (SDN)</strong>
+</a>
+
+
+    
+<a href="https://www.sdxcentral.com/networking/sdn/definitions/what-is-openflow/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>OpenFlow</strong>
+</a>
+
+
+<a href="https://www.comptia.org/content/guides/network-security-basics-definition-threats-and-solutions" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>COMPTIA network security basics</strong>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/ANT_(network)" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Ant - Z-Wave</strong>
+</a>
+
+<a href="https://www.softwright.com/faq/engineering/cdmatdma.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>CDMA vs TDMA</strong>
+</a>
+
+<a href="https://www.networkcomputing.com/wireless-infrastructure/channel-bonding-wifi-rules-and-regulations" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Channel Bonding in Wi-Fi</strong>
+</a>
+
+<a href="https://documentation.meraki.com/MR/Radio_Settings/Channel_Bonding" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Cisco Meraki Channel Bonding</strong>
+</a>
+
+<a href="https://www.networkworld.com/article/3250268/what-is-mu-mimo-and-why-you-need-it-in-your-wireless-routers.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>MIMO</strong>
+</a>
+
+<a href="https://www.networkworld.com/article/3256905/13-things-you-need-to-know-about-mu-mimo-wi-fi.html" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>MU-MIMO</strong>
+</a>
+
+<a href="https://www.usmobile.com/help/knowledge-base/gsm-vs-cdma/" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>GSM vs CDMA</strong>
+</a>
+
+<a href="https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong> Wi-Fi deauthentication attack </strong>
+</a>
+
+<a href="https://hackernoon.com/forcing-a-device-to-disconnect-from-wifi-using-a-deauthentication-attack-f664b9940142" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong> Forcing a device to disconnect from WiFi using a deauthentication attack </strong>
+</a>
+
+
+
+<a href="https://www.youtube.com/watch?time_continue=6&v=6m2vY2HXU60&feature=emb_logo" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong> WiFi Jammers vs Deauthers - What's The Difference? </strong>
+</a>
+
+
+<!--
+<a href="" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>  </strong>
+</a>
+-->
+
+
+<a href="https://www.dni.gov/files/ODNI/documents/National_Intelligence_Strategy_2019.pdf" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>National Intelligence Strategy </strong>
+</a>
+
+<a href="https://www.dni.gov/index.php/cyber-threat-framework" target="_blank" class="btn btn-default btn-lg rounded-pill btn-dark">
+<strong>Cyber Threat Framework </strong>
+</a>	
+
+
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Study hard</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Stay at home</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Learn coding</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>Have fun</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Pasadena, CA.</span>
+  </div>
+</div>
+
+</body>
+</html>
