@@ -57,18 +57,65 @@
   };
 </script> 
  <style>
-   body {background-color: whitesmoke;}
+   body {background-color: whitesmoke;
+  font-size: 150%;}
  </style>   
 </head>
 <body oncontextmenu="alert('Get your CCNA this year!');return false;" onselectstart="return false" ondragstart="return false" >
 
 <div class="container-fluid text-center" style="background-color: blueviolet;">
     <br>
-	   <h1 style="color:yellow;">Cisco CCNA.</h1>
+	   <h1 style="color:white;">Cisco CCNA Exercises.</h1>
     <br>
    
-    </div>
-<img src="faraglioni-2582525.jpg" class="img-fluid">
+</div>
+
+<div class="container-fluid">
+  <br>
+  <h2>Exercise 1: &nbsp;IPv4 Routing and Access Control Lists.</h2>
+
+  <strong>Task 1:&nbsp;</strong> Download the starting PKT file
+   <a href="https://information2021.github.io/ipv4august01.pkt" target="_blank">from here</a>.<br>
+   <br>
+<img src="ipv4august01.png" class="img-fluid d-block mx-auto"
+
+ <br><br>
+   <strong>Task 2:&nbsp;</strong> Assign IPv4 addresses (shown on the annotations) to computers, switches and routers.
+   <br><br>
+   <strong>Task 3:&nbsp;</strong>  Assign passwords for ssh (remote access), console (out-of-band access) and enable mode to switches and routers.
+
+   <br><br>
+   <strong>Task 4:&nbsp;</strong>   Configure OSPF routing in the 6 Cisco routers. Test (partial) connectivity.
+
+   <br><br>
+   <strong>Task 5:&nbsp;</strong>   Configure the DHCP server and the appropriate routers to enable DHCP forwarding.
+   Verify that the DHCP clients were assigned an IP address. 
+
+   <br><br>
+   <strong>Task 6:&nbsp;</strong>  Configure the DNS Server. Create a record named <i>www.krebnertech.com</i> that points to the 
+   web server. Test host name resolution from the other computers. 
+
+   <br><br>
+   <strong>Task 7:&nbsp;</strong>  Configure Inter-VLAN routing: remember to first create the VLANS and assign switchports 
+   to those VLANS. Verify connectivity.
+
+   <br><br>
+   <strong>Task 8:&nbsp;</strong> Configure and assign a named ACL to block DHCP traffic from the DHCP clients.
+    Verify the blocking.
+
+    <br><br>
+   <strong>Task 9:&nbsp;</strong> Configure and assign a named ACL to block DNS traffic coming from the 192.168.8.0 /24 network.
+   Verify the blocking. Modify the ACL to include blocking HTTP and FTP traffic coming from that same network.
+
+
+
+
+</div>
+
+
+<!--
+  <img src="faraglioni-2582525.jpg" class="img-fluid">
+-->
    
     
     <!--
